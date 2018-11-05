@@ -4,12 +4,13 @@ subtitle: ""
 author: "Doug Manuel"
 date: "2018/11/08 (updated: `r Sys.Date()`)"
 output:
-  xaringan::moon_reader:
+  xaringan::moon_reader: # remark.js
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    
 ---
 
 ```{r setup, include=FALSE}
@@ -21,6 +22,17 @@ class: inverse, center, middle
 # What we will cover
 
 ???
+
+For div??
+# box-shadow:  0 55px 0 #fff;
+
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+revealjs
+
 - Imperitive
   
 -Skill set
@@ -51,6 +63,7 @@ class: inverse, center, middle
 
 - all notes are available in github.
 - get your sticker by: 1) completing a quick anonomous survey; or 2) setting up a github account and commenting on an 'Issue"
+
 
 ---
 
@@ -137,15 +150,22 @@ class: inverse, middle, center
 
 Provides an R Markdown output format `xaringan::moon_reader` as a wrapper for remark.js, and you can use it in the YAML metadata, e.g.
 
-```yaml
----
-title: "A Cool Presentation"
-output:
-  xaringan::moon_reader:
-    yolo: true
-    nature:
-      autoplay: 30000
----
+```xml
+
+<NeuralLayer numberOfNeurons="2">
+  <Neuron id="3" bias="-3.1808306946637">
+    <Con from="0" weight="0.119477686963504" />
+    <Con from="1" weight="-1.97301278112877" />
+    <Con from="2" weight="3.04381251760906" />
+  </Neuron>
+  <Neuron id="4" bias="0.743161353729323">
+    <Con from="0" weight="-0.49411146396721" />
+    <Con from="1" weight="2.18588757615864" />
+    <Con from="2" weight="-2.01213331163562" />
+  </Neuron>
+</NeuralLayer>
+
+
 ```
 
 See the help page `?xaringan::moon_reader` for all possible options that you can use.
