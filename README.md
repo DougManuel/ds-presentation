@@ -10,8 +10,8 @@ Data science to improve research. Improve quality, openness, reproducibility and
 1) Examples of questions I ask students to gauge their data science implementation.
 1) Example: the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
 
-## Housekeeping
-1) After the presentation: please complete an evaluation.
+## 1) Housekeeping
+1) After the presentation: please complete an evaluation. [Link]
 1) References and resources.
    - References are below.
    - Links to repositories and web resources.
@@ -20,6 +20,36 @@ Data science to improve research. Improve quality, openness, reproducibility and
       - [Algorithm visualization](http://algorithm-viewer.projectbiglife.ca)
       - How to score or deploy our [algorithms](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs).
       - Example of a ['Model Specification Worksheet`](https://docs.google.com/spreadsheets/d/1e7RP-Vpxyq_OQBtXdyuWjuv6jCBUPzoJ_R_R_obefLo/edit#gid=0)   
+
+## 2) What is data science?
+See references below.
+
+## 3) Imperitives
+
+### Internationally, a growing voice of concern about research reproducitibity
+
+> “Academic institutions can and must do better. We should be taking multiple approaches to make science more reliable.”
+
+*Jeffrey Flier*. Dean of Medicine, Harvard University. Nature 549, 133 (2017)
+
+>“Put simply, this means that researchers should make their computational workflow and data available for others to view. 
+> They should include the code used to generate published figures and omit only data that cannot be released for privacy or legal reasons.”
+
+*Jeffrey M. Perkel*. A toolkit for data transparency takes shape. Nature 560, 513-515 (2018)
+
+### Imperitive continued
+
+Research (using routinely-collected data) is often poor quality.
+- Inefficient, lacks transparency, and not is reproducible.
+- Errors and omissions can and do change study conclusions. E.g., 
+   - bias is introduced into your study if you change your plan after 
+you examine your outcome; or, 
+   - you fail to report all analyses. 
+ 
+Big data and more complex analytic models are stressing our research workflow
+
+
+
 
 ## References
 
