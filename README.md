@@ -11,7 +11,14 @@ Data science to improve research quality, openness, reproducibility and efficien
 
 ## Housekeeping
 1) After the presentation: please complete an evaluation.
-1) References and resources. 
+1) References and resources.
+   - References are below.
+   - Links to repositories and web resources.
+      - the [Project Big Life](https://projectbiglife.ca) website.
+      - [Web appendices](https://github.com/Ottawa-mHealth/predictive-algorithms) for our published algorithms. See also [here](http://docs.projectbiglife.ca/)
+      - [Algorithm visualization](http://algorithm-viewer.projectbiglife.ca)
+      - How to score or deploy our [algorithms](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs).
+      - Example of a ['Model Specification Worksheet`](https://docs.google.com/spreadsheets/d/1e7RP-Vpxyq_OQBtXdyuWjuv6jCBUPzoJ_R_R_obefLo/edit#gid=0)   
 
 ## References
 
