@@ -1,5 +1,17 @@
 # Presentation
-Data science to improve research quality, openness, reproducibility and efficiency at ICES
+Data science to improve research quality, openness, reproducibility and efficiency.
+
+## Outline
+
+1) Housekeeping - general notes for the presentation.
+1) What is data science? A very brief introduction.
+1) Imperitives - challenges for research.
+1) Examples of questions I ask students to gauge their data science implementation.
+1) Example: the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
+
+## Housekeeping
+1) After the presentation: please complete an evaluation.
+1) References and resources. 
 
 ## References
 
