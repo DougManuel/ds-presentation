@@ -78,6 +78,14 @@ Big data and more complex analytic models are stressing our research workflow.
    - Unit testing, integration testing, system testing, operational acceptance testing
 - Which automation tools do you use?
    - Code cleaning, documentation, code execution.
+- How easy is it for someone else to replicate your research? 
+   - (or, for you to replicate your own research?)
+- How do you document your code?
+   - Explanation, technical reference, how-to guides (examples), vignettes (tutorials)
+- Do you publish your code?
+- Do you use documentation notebooks? (Jupyter, R Markdown, etc).
+- What data visualization tools that you use?
+
 
 ## References
 
