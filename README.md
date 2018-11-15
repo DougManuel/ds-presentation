@@ -82,6 +82,8 @@ Big data and more complex analytic models are stressing our research workflow
 
 1) What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
 
+1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
+[10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
 
 ## Toolkit
 
