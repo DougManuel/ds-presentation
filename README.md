@@ -12,6 +12,7 @@ Data science to improve research. Improve quality, openness, reproducibility and
 
 ## 1) Housekeeping
 1) After the presentation: please complete an evaluation. [Link]
+1) Want a Project Big Life Hexigon sticker? Just send make say 'hi' or make a comment in [issues] and we'll send one out to you. (We just want to encourage you to try out git and GitHub.)
 1) References and resources.
    - References are below.
    - Links to repositories and web resources.
