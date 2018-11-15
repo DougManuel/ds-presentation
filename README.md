@@ -47,10 +47,37 @@ Research (using routinely-collected data) is often poor quality.
 you examine your outcome; or, 
    - you fail to report all analyses. 
  
-Big data and more complex analytic models are stressing our research workflow
+Big data and more complex analytic models are stressing our research workflow.
 
+### Our team’s additional challenges/imperatives
 
+- Development of algorithms that are more complex.
+- Describing and documenting (complex) algorithms.
+- Deployment of (complex) algorithms.
 
+### Additional constraints
+- Analyses in a secure environment
+- Team members with different backgrounds
+
+## Survey
+- How do you keep track of updates to your code?
+   - Do you use Version Control Software or Git?
+- Do you have files named like this?
+   - my_analyses_final_final_reallyFinal.sas
+- Are all your variables labeled?
+- Do you use functions/macros?
+- How confident are you that your programs are error free?
+
+### Survey (continued) – how do you program?
+- What programming languages do you use?
+- What programming paradigm do you follow?
+- Procedural, functional or object-oriented
+- Do you have a coding style guide that you follow?
+- Do you use a linter or similar tools?
+- What code testing do you use?
+   - Unit testing, integration testing, system testing, operational acceptance testing
+- Which automation tools do you use?
+   - Code cleaning, documentation, code execution.
 
 ## References
 
