@@ -86,6 +86,16 @@ Big data and more complex analytic models are stressing our research workflow.
 - Do you use documentation notebooks? (Jupyter, R Markdown, etc).
 - What data visualization tools that you use?
 
+## Example of our work
+[RESPECT](http://www.respect.projectbiglife.ca/)
+[Algorithm viewer](http://algorithm-viewer.projectbiglife.ca)
+[Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
+[More documenation](http://docs.projectbiglife.ca/)
+[Documenting how to use the API](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs/)
+
+
+
+
 
 ## References
 
