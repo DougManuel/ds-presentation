@@ -4,11 +4,11 @@ Data science to improve research. Improve quality, openness, reproducibility and
 
 ## Outline
 
-1) Housekeeping - general notes for the presentation.
-1) What is data science? A very brief introduction.
-1) Imperitives - challenges for research.
-1) Examples of questions I ask students to gauge their data science implementation.
-1) Example: the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
+1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
+1) [What is data science?](2-what-is-data-science?) A very brief introduction.
+1) [Imperitives](3-mperitives) - challenges for research.
+1) [Examples](4-survey) of questions I ask students to gauge their data science implementation.
+1) [Example](5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
 
 ## 1) Housekeeping
 1) After the presentation: please complete an evaluation. [Link](https://projectbiglife.typeform.com/to/qMhO7F)
@@ -59,7 +59,7 @@ Big data and more complex analytic models are stressing our research workflow.
 - Analyses in a secure environment
 - Team members with different backgrounds
 
-## Survey
+## 4) Survey
 - How do you keep track of updates to your code?
    - Do you use Version Control Software or Git?
 - Do you have files named like this?
@@ -86,7 +86,7 @@ Big data and more complex analytic models are stressing our research workflow.
 - Do you use documentation notebooks? (Jupyter, R Markdown, etc).
 - What data visualization tools that you use?
 
-## Example of our work
+## 5) Example of our work
 [RESPECT](http://www.respect.projectbiglife.ca/)
 [Algorithm viewer](http://algorithm-viewer.projectbiglife.ca)
 [Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
