@@ -140,12 +140,6 @@ Use Git if either of these issues applies to you.
 2. If you collaborate or share code with others.
    Science is about collaboration and sharing ideas.
 
-[Getting started with Git.](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
+[Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
 
-For more infomation, see [Git page](git.md).
 
-### Gitkraken
-
-[Gitkraken cheat-sheet](https://www.gitkraken.com/downloads/gitKraken-cheat-sheet-28sept2017.pdf)
-
-[Gitkraken GitHub cheat-sheet](https://www.gitkraken.com/downloads/gitkraken-for-github-cheat-sheet-28sept2017.pdf)
