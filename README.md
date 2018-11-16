@@ -2,6 +2,8 @@
 
 Data science to improve research. Improve quality, openness, reproducibility and efficiency for studies that use rountinely-collected data.
 
+[*Talk evaluation*](https://projectbiglife.typeform.com/to/qMhO7F)
+
 ## Outline
 
 1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
@@ -9,6 +11,8 @@ Data science to improve research. Improve quality, openness, reproducibility and
 1) [Imperitives](#3-imperitives) - challenges for research.
 1) [Examples](#4-survey) of questions I ask students to gauge their data science implementation.
 1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
+1) [References](#references)
+1) [Tools](#toolkit)
 
 ## 1) Housekeeping
 1) After the presentation: please complete an evaluation. [Link](https://projectbiglife.typeform.com/to/qMhO7F)
@@ -92,10 +96,6 @@ Big data and more complex analytic models are stressing our research workflow.
 [Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
 [More documenation](http://docs.projectbiglife.ca/)
 [Documenting how to use the API](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs/)
-
-
-
-
 
 ## References
 
