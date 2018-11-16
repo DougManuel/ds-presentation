@@ -5,8 +5,8 @@ Data science to improve research. Improve quality, openness, reproducibility and
 ## Outline
 
 1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
-1) [What is data science?](2-what-is-data-science?) A very brief introduction.
-1) [Imperitives](3-mperitives) - challenges for research.
+1) [What is data science?](2-what-is-data-science) A very brief introduction.
+1) [Imperitives](3-imperitives) - challenges for research.
 1) [Examples](4-survey) of questions I ask students to gauge their data science implementation.
 1) [Example](5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
 
