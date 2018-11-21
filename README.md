@@ -10,7 +10,7 @@ Data science to improve research. Improve quality, openness, reproducibility and
 1) [What is data science?](#2-what-is-data-science) A very brief introduction.
 1) [Imperitives](#3-imperitives) - challenges for research.
 1) [Examples](#4-survey) of questions I ask students to gauge their data science implementation.
-1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca)
+1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca).
 1) [References](#references)
 1) [Tools](#toolkit)
 
@@ -75,9 +75,9 @@ Big data and more complex analytic models are stressing our research workflow.
 ### Survey (continued) – how do you program?
 - What programming languages do you use?
 - What programming paradigm do you follow?
-- Procedural, functional or object-oriented
+   - Procedural, functional or object-oriented
 - Do you have a coding style guide that you follow?
-- Do you use a linter or similar tools?
+   - Do you use a linter or similar tools?
 - What code testing do you use?
    - Unit testing, integration testing, system testing, operational acceptance testing
 - Which automation tools do you use?
@@ -86,7 +86,7 @@ Big data and more complex analytic models are stressing our research workflow.
    - (or, for you to replicate your own research?)
 - How do you document your code?
    - Explanation, technical reference, how-to guides (examples), vignettes (tutorials)
-- Do you publish your code?
+- Do you publish code with your research?
 - Do you use documentation notebooks? (Jupyter, R Markdown, etc).
 - What data visualization tools that you use?
 
@@ -141,5 +141,3 @@ Use Git if either of these issues applies to you.
    Science is about collaboration and sharing ideas.
 
 [Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
-
-
