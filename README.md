@@ -51,7 +51,6 @@ Data science to improve research. Improve quality, openness, reproducibility and
 
 1) What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
 
-
 ## Toolkit
 
 ### Git
