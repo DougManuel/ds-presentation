@@ -42,6 +42,10 @@ See references below.
 
 *Jeffrey M. Perkel*. A toolkit for data transparency takes shape. Nature 560, 513-515 (2018)
 
+>"More than 70% of researchers have tried and failed to reproduce another scientist's experiments, and more than half have failed to reproduce their own experiments."
+
+*Monya Baker*. 1,500 scientists lift the lid on reproducibility. Nature 533, 452-4 (2016)
+
 ### Imperitive continued
 
 Research (using routinely-collected data) is often poor quality.
@@ -102,6 +106,8 @@ Big data and more complex analytic models are stressing our research workflow.
 1) Flier, J. (2017). Faculty promotion must assess reproducibility. Nature, 549(7671), 133. [doi:10.1038/549133](https://www.nature.com/news/faculty-promotion-must-assess-reproducibility-1.22596)
 
 1) Perkel, J. M. (2018). A toolkit for data transparency takes shape. [Nature, 560, 513-515](https://www.nature.com/articles/d41586-018-05990-5).
+
+1) Baker, M. 1,500 scientists lift the lid on reproducibility. [Nature 533, 452-4 (2016)](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.199700.
 
 1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 
