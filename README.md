@@ -4,6 +4,13 @@ Data science to improve research. Improve quality, openness, reproducibility and
 
 [*Talk evaluation*](https://projectbiglife.typeform.com/to/qMhO7F)
 
+
+## EPI5143
+
+[What data science tools do you use or want to learn?](https://projectbiglife.typeform.com/to/GXbx0K)
+
+[Presentation evaluation](https://projectbiglife.typeform.com/to/w4mJgI)
+
 ## Outline
 
 1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
