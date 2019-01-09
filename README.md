@@ -109,6 +109,8 @@ Big data and more complex analytic models are stressing our research workflow.
 
 1) Baker, M. 1,500 scientists lift the lid on reproducibility. [Nature 533, 452-4 (2016)](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.199700.
 
+1) Woelfle, M.; Olliaro, P.; Todd, M. H. (2011). Open science is a research accelerator. Nature Chemistry. 3: 745–748. [doi:10.1038/nchem.1149](https://www.nature.com/articles/nchem.1149)
+
 1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 
 1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
