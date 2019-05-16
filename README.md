@@ -1,42 +1,18 @@
 # Presentation
 
-Data science to improve research. Improve quality, openness, reproducibility and efficiency for studies that use rountinely-collected data.
+A Data Science Toolkit has emerged to support Open Science for Epidemiology and Biostatistics
 
-[*Talk evaluation*](https://projectbiglife.typeform.com/to/qMhO7F)
+With Stacey Fisher
 
-
-## EPI5143
-
-[What data science tools do you use or want to learn?](https://projectbiglife.typeform.com/to/GXbx0K)
-
-[Presentation evaluation](https://projectbiglife.typeform.com/to/w4mJgI)
+[PDF](https://cp.sync.com/dl/51d1aca00/j549xjj9-uyx9fs9p-en37en8g-6ru8dkzp)
 
 ## Outline
-
-1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
-1) [What is data science?](#2-what-is-data-science) A very brief introduction.
-1) [Imperitives](#3-imperitives) - challenges for research.
-1) [Examples](#4-survey) of questions I ask students to gauge their data science implementation.
-1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca).
-1) [References](#references)
-1) [Tools](#toolkit)
-
-## 1) Housekeeping
-1) After the presentation: please complete an evaluation. [Link](https://projectbiglife.typeform.com/to/qMhO7F)
-1) Want a Project Big Life Hexigon sticker? Just send make say 'hi' or make a comment in [issues](https://github.com/DougManuel/data_science_presentation/issues/1) and we'll send one out to you. There is a link to a form where you can send us your mailing address. (Really, we just want to encourage you to try out git and GitHub.)
-1) References and resources.
-   - References are below.
-   - Links to repositories and web resources.
-      - the [Project Big Life](https://projectbiglife.ca) website.
-      - [Web appendices](https://github.com/Ottawa-mHealth/predictive-algorithms) for our published algorithms. See also [here](http://docs.projectbiglife.ca/)
-      - [Algorithm visualization](http://algorithm-viewer.projectbiglife.ca)
-      - How to score or deploy our [algorithms](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs).
-      - Example of a ['Model Specification Worksheet`](https://docs.google.com/spreadsheets/d/1e7RP-Vpxyq_OQBtXdyuWjuv6jCBUPzoJ_R_R_obefLo/edit#gid=0)   
-
-## 2) What is data science?
-See references below.
-
-## 3) Imperitives
+1) Imperitive
+2) Open Science toolkit. Focus on:
+   - Open source
+   - Open methodology
+   - Open educational resources
+3) Example: Project Big Life predictive algorithm workflow with bllflow.
 
 ### Internationally, a growing voice of concern about research reproducitibity
 
@@ -64,44 +40,7 @@ you examine your outcome; or,
  
 Big data and more complex analytic models are stressing our research workflow.
 
-### Our team’s additional challenges/imperatives
-
-- Development of algorithms that are more complex.
-- Describing and documenting (complex) algorithms.
-- Deployment of (complex) algorithms.
-
-### Additional constraints
-- Analyses in a secure environment
-- Team members with different backgrounds
-
-## 4) Survey
-- How do you keep track of updates to your code?
-   - Do you use Version Control Software or Git?
-- Do you have files named like this?
-   - my_analyses_final_final_reallyFinal.sas
-- Are all your variables labeled?
-- Do you use functions/macros?
-- How confident are you that your programs are error free?
-
-### Survey (continued) – how do you program?
-- What programming languages do you use?
-- What programming paradigm do you follow?
-   - Procedural, functional or object-oriented
-- Do you have a coding style guide that you follow?
-   - Do you use a linter or similar tools?
-- What code testing do you use?
-   - Unit testing, integration testing, system testing, operational acceptance testing
-- Which automation tools do you use?
-   - Code cleaning, documentation, code execution.
-- How easy is it for someone else to replicate your research? 
-   - (or, for you to replicate your own research?)
-- How do you document your code?
-   - Explanation, technical reference, how-to guides (examples), vignettes (tutorials)
-- Do you publish code with your research?
-- Do you use documentation notebooks? (Jupyter, R Markdown, etc).
-- What data visualization tools that you use?
-
-## 5) Example of our work
+### Example of our work
 [RESPECT](http://www.respect.projectbiglife.ca/)
 [Algorithm viewer](http://algorithm-viewer.projectbiglife.ca)
 [Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
