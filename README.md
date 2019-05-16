@@ -1,37 +1,17 @@
-# Presentation
+# Data Science Toolkit Presentations
 
-Data science to improve research. Improve quality, openness, reproducibility and efficiency for studies that use rountinely-collected data.
+A collection of several related presentations on data science. Each branch represents a presentation for a specific audience. 
 
-[*Talk evaluation*](https://projectbiglife.typeform.com/to/qMhO7F)
-
-
-## EPI5143
-
-[What data science tools do you use or want to learn?](https://projectbiglife.typeform.com/to/GXbx0K)
-
-[Presentation evaluation](https://projectbiglife.typeform.com/to/w4mJgI)
-
-## Outline
+## General Outline
 
 1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
 1) [What is data science?](#2-what-is-data-science) A very brief introduction.
 1) [Imperitives](#3-imperitives) - challenges for research.
-1) [Examples](#4-survey) of questions I ask students to gauge their data science implementation.
+1) [Examples](#4-survey) of questions I ask in polls to gauge level data science implementation.
 1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca).
 1) [References](#references)
 1) [Tools](#toolkit)
 
-## 1) Housekeeping
-1) After the presentation: please complete an evaluation. [Link](https://projectbiglife.typeform.com/to/qMhO7F)
-1) Want a Project Big Life Hexigon sticker? Just send make say 'hi' or make a comment in [issues](https://github.com/DougManuel/data_science_presentation/issues/1) and we'll send one out to you. There is a link to a form where you can send us your mailing address. (Really, we just want to encourage you to try out git and GitHub.)
-1) References and resources.
-   - References are below.
-   - Links to repositories and web resources.
-      - the [Project Big Life](https://projectbiglife.ca) website.
-      - [Web appendices](https://github.com/Ottawa-mHealth/predictive-algorithms) for our published algorithms. See also [here](http://docs.projectbiglife.ca/)
-      - [Algorithm visualization](http://algorithm-viewer.projectbiglife.ca)
-      - How to score or deploy our [algorithms](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs).
-      - Example of a ['Model Specification Worksheet`](https://docs.google.com/spreadsheets/d/1e7RP-Vpxyq_OQBtXdyuWjuv6jCBUPzoJ_R_R_obefLo/edit#gid=0)   
 
 ## 2) What is data science?
 See references below.
