@@ -1,22 +1,64 @@
-# Data Science Toolkit Presentations
+# Data Science Toolkit
+
+## The test: Are you using the data science tool kit for open science?
+
+Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r/6FG22QJ)
+
+### Explantion of how we marked the test
+
+#### 1) Open software
+
+There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the defacto way to share code with others. 
+
+The two leading software packages for data science are R and Python. Julia is also open-source with rapid adoption. There are thousands and thousands of code packages that are publicly available in code repositories for R and Python. These code respositories have well-established guidelines for how to write and document code for sharing. A rich tool kit of supporting libraries are available to make it easy for you to adopt these best practices, including creating documentation, cleaning and linting your code, checking and testing for errors. 
 
 A collection of several related presentations on data science. Each branch represents a presentation for a specific audience. 
 
-## General Outline
+#### 2) Coding style
 
-1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
-1) [What is data science?](#2-what-is-data-science) A very brief introduction.
-1) [Imperitives](#3-imperitives) - challenges for research.
-1) [Examples](#4-survey) of questions I ask in polls to gauge level data science implementation.
-1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca).
-1) [References](#references)
-1) [Tools](#toolkit)
+Code is easier to read if it is written in a consistent style that includes naming variables, functions and how to using spaces. There are common style guides that are used for different languages or within institutions. For example, [Google](http://google.github.io/styleguide/) publishes their style guides for all major program languages. Try to the same style guide within your organization or collegues.
 
+#### 3) Documenting your code
 
-## 2) What is data science?
-See references below.
+Documenting your analysis code is more than making comments within the program code explaining the steps or sections. See [blog post](https://www.divio.com/blog/documentation/) by Daniele Procida for a description of the four components of good documentation: tutorials, how-to guides, explanation and technical reference. 
 
-## 3) Imperitives
+> "It doesn’t matter how good your software is, because if the documentation is not good enough, people will not use it."
+
+*Daniele Procida*. [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
+
+#### 4) Code notebooks
+
+Code notebooks like Juypter and rMarkdown are a great way to share code. You combine code snippets in a docment that is easy to read. The code snippets can be executed by your reader -- and modified by them if they wish to explore how the code works. The notebooks are easily shared on websites. 
+
+We like rMarkdown because you can not only create notebooks but also [online books](https://bookdown.org/yihui/bookdown/), [blog](https://bookdown.org/yihui/blogdown/), (code package documentation)[https://pkgdown.r-lib.org/] and other documents.
+
+#### 5) Check your code
+
+Errors in code is (enivable)[https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio]. The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborations. 
+
+Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
+
+#### 6 to 8) Git and Git repositories
+
+Git and Git repositories have the most points in our test. When we talk about Git terms like "linchpin" and "glue" come up. Many parts of the open science tool kit would look considerably less developed without Git. There are other version control systems but Git is really the only system that is used for new projects.
+
+Git is difficult to learn, but everyone who learns it is glad they did. Using git will save you time and heartache -- any investment in your time will be returned to you many, many fold.
+
+Git repositories like GitHub and Gitlab is how data scientist colloborate across the world. 
+
+There are many [guides](http://kbroman.org/github_tutorial/) and [tips](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/) for using git and git repositories. Keep your eyes open for the increasing number of resources for people like you (hint: many resources are for software developers in business). 
+
+We have created some resources for health researchers. [Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
+
+#### 9) Metadata
+
+You may be suprized to see a question about metadata on the test. This is a rapidly developming area that data scientist are paying more attention. Data without context is meaningless -- metadata provide that context. Metadata tells you about your data: where it came from (data provance) and what it contains. 
+
+Fortunately, many sources of data come with standarized metadata. For example, there are over ten thousand databases with 5 million variables available at [ICPSR](https://www.icpsr.umich.edu/icpsrweb/), all with metadata encoded using the Data Documentation Initiative((DDI)[https://www.ddialliance.org]). Aim to publish your results with metadata to allow machine-actionable uses of your research, in addition to ensure reliable reproduciblity and transparency. For example, we publish our algorihtms using Predictive Modelling Mark-up Language ((PMML)[http://dmg.org]). 
+
+A challenge is a lack of well-developed tools to use metadata in your project (beyond variable and category lables). We've created an [R library](http://bllflow.projectbiglife.ca) that helps use and maintain metadata.
+
+## Imperitives
 
 ### Internationally, a growing voice of concern about research reproducitibity
 
@@ -33,62 +75,23 @@ See references below.
 
 *Monya Baker*. 1,500 scientists lift the lid on reproducibility. Nature 533, 452-4 (2016)
 
-### Imperitive continued
-
-Research (using routinely-collected data) is often poor quality.
-- Inefficient, lacks transparency, and not is reproducible.
-- Errors and omissions can and do change study conclusions. E.g., 
-   - bias is introduced into your study if you change your plan after 
-you examine your outcome; or, 
-   - you fail to report all analyses. 
- 
-Big data and more complex analytic models are stressing our research workflow.
-
-### Our team’s additional challenges/imperatives
-
-- Development of algorithms that are more complex.
-- Describing and documenting (complex) algorithms.
-- Deployment of (complex) algorithms.
-
-### Additional constraints
-- Analyses in a secure environment
-- Team members with different backgrounds
-
-## 4) Survey
-- How do you keep track of updates to your code?
-   - Do you use Version Control Software or Git?
-- Do you have files named like this?
-   - my_analyses_final_final_reallyFinal.sas
-- Are all your variables labeled?
-- Do you use functions/macros?
-- How confident are you that your programs are error free?
-
-### Survey (continued) – how do you program?
-- What programming languages do you use?
-- What programming paradigm do you follow?
-   - Procedural, functional or object-oriented
-- Do you have a coding style guide that you follow?
-   - Do you use a linter or similar tools?
-- What code testing do you use?
-   - Unit testing, integration testing, system testing, operational acceptance testing
-- Which automation tools do you use?
-   - Code cleaning, documentation, code execution.
-- How easy is it for someone else to replicate your research? 
-   - (or, for you to replicate your own research?)
-- How do you document your code?
-   - Explanation, technical reference, how-to guides (examples), vignettes (tutorials)
-- Do you publish code with your research?
-- Do you use documentation notebooks? (Jupyter, R Markdown, etc).
-- What data visualization tools that you use?
-
-## 5) Example of our work
-[RESPECT](http://www.respect.projectbiglife.ca/)
-[Algorithm viewer](http://algorithm-viewer.projectbiglife.ca)
-[Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
-[More documenation](http://docs.projectbiglife.ca/)
-[Documenting how to use the API](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs/)
-
 ## References
+
+### General
+
+1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+
+1) Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
+
+1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
+
+1) Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745. 
+
+1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
+[10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
+
+   
+### Open Science
 
 1) Flier, J. (2017). Faculty promotion must assess reproducibility. Nature, 549(7671), 133. [doi:10.1038/549133](https://www.nature.com/news/faculty-promotion-must-assess-reproducibility-1.22596)
 
@@ -98,41 +101,57 @@ Big data and more complex analytic models are stressing our research workflow.
 
 1) Woelfle, M.; Olliaro, P.; Todd, M. H. (2011). Open science is a research accelerator. Nature Chemistry. 3: 745–748. [doi:10.1038/nchem.1149](https://www.nature.com/articles/nchem.1149)
 
-1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-
-1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
-
-1) Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
-
 1) Stodden, V., McNutt, M., Bailey, D. H., Deelman, E., Gil, Y., Hanson, B., . . . Taufer, M. (2016). Enhancing reproducibility for computational methods. Science, 354(6317), 1240-1241. [doi:10.1126/science.aah6168](http://science.sciencemag.org/content/354/6317/1240.long)
 
 1) Kopt D. This year’s Nobel Prize in economics was awarded to a Python convert. [qz.com](https://qz.com/1417145/economics-nobel-laureate-paul-romer-is-a-python-programming-convert/) Oct 2018.
 
 1) Somers J. The Scientific Paper Is Obsolete: Here's what's next. [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) Apr 2018.
 
-### Toolkit references
+1) Kitzes J, Turek D, Deniz F. _The practice of reproducible research: case studies and lessons from the data-intensive sciences_. [Univ of California Press](https://legacy.gitbook.com/book/bids/the-practice-of-reproducible-research/details); 2017.
+
+1) Pioneering ‘live-code’ article allows scientists to play with each other’s results. [Nature](https://www.nature.com/articles/d41586-019-00724-7)
+
+
+### Git and version control
 
 1) Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost Fda V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. [PLoS Comput Biol](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/). 2016;12(7):e1004947.
 
-1) IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
+1) [Git/Github guide](http://kbroman.org/github_tutorial/)
 
-1) Kitzes J, Turek D, Deniz F. _The practice of reproducible research: case studies and lessons from the data-intensive sciences_. [Univ of California Press](https://legacy.gitbook.com/book/bids/the-practice-of-reproducible-research/details); 2017.
+1) [Version control with Git](https://swcarpentry.github.io/git-novice/)
 
-1) Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745.  
+1) [Git and GitHub learning resources](https://help.github.com/en/articles/git-and-github-learning-resources)
+
+1) [Integration of GitHub with SAS](https://analytics.ncsu.edu/sesug/2013/PA-04.pdf)
+
+1) [Gitkraken](https://www.gitkraken.com/git-client) (the Git client our team uses)
+
+### Code documentation
 
 1) What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
 
-1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
-[10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
+1) [Jupyter Notebooks](https://jupyter.org/)
 
-## Toolkit
+1) [Why Jupyter is data scientist’ computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
 
-### Git
+1) [Introduction to R Markdown](http://rmarkdown.rstudio.com/articles_intro.html) 
 
-Use Git if either of these issues applies to you.
+1) [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
-1. You have files like this: `my_great_study_final_final_final.sas`
-2. If you collaborate or share code with others.
-   Science is about collaboration and sharing ideas.
+1) [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
-[Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
+1) [Advantages to using R Markdown for data analysis over Jupyter Notebooks](https://minimaxir.com/2017/06/r-notebooks/)
+
+### Programming
+
+1) [Population Health Data Science with R. Tomas J Argon](https://bookdown.org/medepi/phds/)
+
+1) [R for Data Science](http://r4ds.had.co.nz/index.html). G Grolemund and H Wickham
+
+1)  [Efficient R programming]([https://csgillespie.github.io/efficientR/). C Gillespie, R Lovelace
+
+1) [R for Data Science- Chapter 19: Functions](http://r4ds.had.co.nz/functions.html ). G Grolemund, H Wickham
+
+### Metadata
+
+1) IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
