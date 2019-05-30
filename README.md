@@ -1,4 +1,4 @@
-## The test: Are you using the data science tool kit for open science?
+## The quiz: Are you using the data science tool kit for open science?
 
 **Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r/6FG22QJ)**
 
