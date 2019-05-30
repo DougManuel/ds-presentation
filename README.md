@@ -6,6 +6,8 @@ Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r
 
 ### Explantion of how we marked the test
 
+Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues)
+
 #### 1) Open software
 
 There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the defacto way to share code with others. 
