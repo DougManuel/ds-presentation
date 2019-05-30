@@ -1,64 +1,12 @@
-# Data Science Toolkit
+# A data science tool kit has emerged to support open science For health services and policy research
 
-## The test: Are you using the data science tool kit for open science?
+[PDF of the presentation](https://cp.sync.com/dl/8b20b45c0/8bhyvrtj-tufskcuw-qqsbtd4x-ifxqq23r)
 
-Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r/6FG22QJ)
+Evaluate your use of the data science tool kit. [Quiz](https://ca.research.net/r/6FG22QJ)
 
-### Explantion of how we marked the test
+[Explanation](https://dougmanuel.github.io/ds-presentation/) of the quiz.
 
-#### 1) Open software
-
-There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the defacto way to share code with others. 
-
-The two leading software packages for data science are R and Python. Julia is also open-source with rapid adoption. There are thousands and thousands of code packages that are publicly available in code repositories for R and Python. These code respositories have well-established guidelines for how to write and document code for sharing. A rich tool kit of supporting libraries are available to make it easy for you to adopt these best practices, including creating documentation, cleaning and linting your code, checking and testing for errors. 
-
-A collection of several related presentations on data science. Each branch represents a presentation for a specific audience. 
-
-#### 2) Coding style
-
-Code is easier to read if it is written in a consistent style that includes naming variables, functions and how to using spaces. There are common style guides that are used for different languages or within institutions. For example, [Google](http://google.github.io/styleguide/) publishes their style guides for all major program languages. Try to the same style guide within your organization or collegues.
-
-#### 3) Documenting your code
-
-Documenting your analysis code is more than making comments within the program code explaining the steps or sections. See [blog post](https://www.divio.com/blog/documentation/) by Daniele Procida for a description of the four components of good documentation: tutorials, how-to guides, explanation and technical reference. 
-
-> "It doesn’t matter how good your software is, because if the documentation is not good enough, people will not use it."
-
-*Daniele Procida*. [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
-
-#### 4) Code notebooks
-
-Code notebooks like Juypter and rMarkdown are a great way to share code. You combine code snippets in a docment that is easy to read. The code snippets can be executed by your reader -- and modified by them if they wish to explore how the code works. The notebooks are easily shared on websites. 
-
-We like rMarkdown because you can not only create notebooks but also [online books](https://bookdown.org/yihui/bookdown/), [blog](https://bookdown.org/yihui/blogdown/), (code package documentation)[https://pkgdown.r-lib.org/] and other documents.
-
-#### 5) Check your code
-
-Errors in code is (enivable)[https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio]. The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborations. 
-
-Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
-
-#### 6 to 8) Git and Git repositories
-
-Git and Git repositories have the most points in our test. When we talk about Git terms like "linchpin" and "glue" come up. Many parts of the open science tool kit would look considerably less developed without Git. There are other version control systems but Git is really the only system that is used for new projects.
-
-Git is difficult to learn, but everyone who learns it is glad they did. Using git will save you time and heartache -- any investment in your time will be returned to you many, many fold.
-
-Git repositories like GitHub and Gitlab is how data scientist colloborate across the world. 
-
-There are many [guides](http://kbroman.org/github_tutorial/) and [tips](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/) for using git and git repositories. Keep your eyes open for the increasing number of resources for people like you (hint: many resources are for software developers in business). 
-
-We have created some resources for health researchers. [Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
-
-#### 9) Metadata
-
-You may be suprized to see a question about metadata on the test. This is a rapidly developming area that data scientist are paying more attention. Data without context is meaningless -- metadata provide that context. Metadata tells you about your data: where it came from (data provance) and what it contains. 
-
-Fortunately, many sources of data come with standarized metadata. For example, there are over ten thousand databases with 5 million variables available at [ICPSR](https://www.icpsr.umich.edu/icpsrweb/), all with metadata encoded using the Data Documentation Initiative((DDI)[https://www.ddialliance.org]). Aim to publish your results with metadata to allow machine-actionable uses of your research, in addition to ensure reliable reproduciblity and transparency. For example, we publish our algorihtms using Predictive Modelling Mark-up Language ((PMML)[http://dmg.org]). 
-
-A challenge is a lack of well-developed tools to use metadata in your project (beyond variable and category lables). We've created an [R library](http://bllflow.projectbiglife.ca) that helps use and maintain metadata.
-
-## Imperitives
+## Imperitive
 
 ### Internationally, a growing voice of concern about research reproducitibity
 
