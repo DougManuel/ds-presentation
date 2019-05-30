@@ -1,8 +1,6 @@
-# Data Science Toolkit
-
 ## The test: Are you using the data science tool kit for open science?
 
-Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r/6FG22QJ)
+**Evaluate your use of the data science tool kit. [Test](https://ca.research.net/r/6FG22QJ)**
 
 ### Explantion of how we marked the test
 
