@@ -75,6 +75,14 @@ A challenge is a lack of well-developed tools to use metadata in your project (b
 
 *Monya Baker*. 1,500 scientists lift the lid on reproducibility. Nature 533, 452-4 (2016)
 
+## Our repository
+
+*[bllflow](https://bllflow.projectbiglife.ca)* - an R package for efficient, transparent data prepartion and reporting.
+
+## Panel presentation
+
+The quiz was part of the data science panel at the [2019 CAHSPR meeting](https://www.cahspr.ca). The [presentation and further information](https://github.com/DougManuel/ds-presentation/tree/CASPHR2019-panel).
+
 ## References
 
 ### General
