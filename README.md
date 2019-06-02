@@ -8,7 +8,7 @@ Have suggestions or thoughts? Send your comments through [issues](https://github
 
 An additional resources (see reference list below):
 
-- several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
+- Several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
 - Our *[bllflow](https://bllflow.projectbiglife.ca)* R package for efficient, transparent data prepartion and reporting.
 - The quiz was part of the data science panel at the [2019 CAHSPR meeting](https://www.cahspr.ca). The [presentation and further information](https://github.com/DougManuel/ds-presentation/tree/CASPHR2019-panel).
 
