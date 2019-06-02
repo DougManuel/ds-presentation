@@ -6,7 +6,7 @@
 
 Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues)
 
-An additional resources (see reference list below):
+Additional resources (see reference list below):
 
 - Several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
 - Our *[bllflow](https://bllflow.projectbiglife.ca)* R package for efficient, transparent data prepartion and reporting.
