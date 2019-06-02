@@ -1,12 +1,17 @@
-# A data science tool kit has emerged to support open science For health services and policy research
-
-[PDF of the presentation](https://cp.sync.com/dl/8b20b45c0/8bhyvrtj-tufskcuw-qqsbtd4x-ifxqq23r)
+# A data science tool kit has emerged to support open science
 
 Evaluate your use of the data science tool kit. [Quiz](https://ca.research.net/r/6FG22QJ)
 
 [Explanation](https://dougmanuel.github.io/ds-presentation/) of the quiz.
 
 ## Imperitive
+
+- Concern regarding a crisis in research reproducibility
+- Big data and more complex analytic models
+- Renewed interest in open science
+- Expanded collaborations
+
+*Goal:* improve research transparency, reproducibility, quality, efficiency and implementation
 
 ### Internationally, a growing voice of concern about research reproducitibity
 
