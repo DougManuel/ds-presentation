@@ -1,22 +1,12 @@
-# Data Science Toolkit Presentations
+# A data science tool kit has emerged to support open science For health services and policy research
 
-A collection of several related presentations on data science. Each branch represents a presentation for a specific audience. 
+[PDF of the presentation](https://cp.sync.com/dl/8b20b45c0/8bhyvrtj-tufskcuw-qqsbtd4x-ifxqq23r)
 
-## General Outline
+Evaluate your use of the data science tool kit. [Quiz](https://ca.research.net/r/6FG22QJ)
 
-1) [Housekeeping](#1-housekeeping)- general notes for the presentation.
-1) [What is data science?](#2-what-is-data-science) A very brief introduction.
-1) [Imperitives](#3-imperitives) - challenges for research.
-1) [Examples](#4-survey) of questions I ask in polls to gauge level data science implementation.
-1) [Example](#5-example-of-our-work): the workflow we use to create algorithms for [Project Big Life](https://projectbiglife.ca).
-1) [References](#references)
-1) [Tools](#toolkit)
+[Explanation](https://dougmanuel.github.io/ds-presentation/) of the quiz.
 
-
-## 2) What is data science?
-See references below.
-
-## 3) Imperitives
+## Imperitive
 
 ### Internationally, a growing voice of concern about research reproducitibity
 
@@ -33,62 +23,23 @@ See references below.
 
 *Monya Baker*. 1,500 scientists lift the lid on reproducibility. Nature 533, 452-4 (2016)
 
-### Imperitive continued
-
-Research (using routinely-collected data) is often poor quality.
-- Inefficient, lacks transparency, and not is reproducible.
-- Errors and omissions can and do change study conclusions. E.g., 
-   - bias is introduced into your study if you change your plan after 
-you examine your outcome; or, 
-   - you fail to report all analyses. 
- 
-Big data and more complex analytic models are stressing our research workflow.
-
-### Our team’s additional challenges/imperatives
-
-- Development of algorithms that are more complex.
-- Describing and documenting (complex) algorithms.
-- Deployment of (complex) algorithms.
-
-### Additional constraints
-- Analyses in a secure environment
-- Team members with different backgrounds
-
-## 4) Survey
-- How do you keep track of updates to your code?
-   - Do you use Version Control Software or Git?
-- Do you have files named like this?
-   - my_analyses_final_final_reallyFinal.sas
-- Are all your variables labeled?
-- Do you use functions/macros?
-- How confident are you that your programs are error free?
-
-### Survey (continued) – how do you program?
-- What programming languages do you use?
-- What programming paradigm do you follow?
-   - Procedural, functional or object-oriented
-- Do you have a coding style guide that you follow?
-   - Do you use a linter or similar tools?
-- What code testing do you use?
-   - Unit testing, integration testing, system testing, operational acceptance testing
-- Which automation tools do you use?
-   - Code cleaning, documentation, code execution.
-- How easy is it for someone else to replicate your research? 
-   - (or, for you to replicate your own research?)
-- How do you document your code?
-   - Explanation, technical reference, how-to guides (examples), vignettes (tutorials)
-- Do you publish code with your research?
-- Do you use documentation notebooks? (Jupyter, R Markdown, etc).
-- What data visualization tools that you use?
-
-## 5) Example of our work
-[RESPECT](http://www.respect.projectbiglife.ca/)
-[Algorithm viewer](http://algorithm-viewer.projectbiglife.ca)
-[Documentation](https://github.com/Ottawa-mHealth/predictive-algorithms)
-[More documenation](http://docs.projectbiglife.ca/)
-[Documenting how to use the API](https://ottawa-mhealth.github.io/pbl-calculator-engine-docs/)
-
 ## References
+
+### General
+
+1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+
+1) Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
+
+1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
+
+1) Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745. 
+
+1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
+[10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
+
+   
+### Open Science
 
 1) Flier, J. (2017). Faculty promotion must assess reproducibility. Nature, 549(7671), 133. [doi:10.1038/549133](https://www.nature.com/news/faculty-promotion-must-assess-reproducibility-1.22596)
 
@@ -98,41 +49,57 @@ Big data and more complex analytic models are stressing our research workflow.
 
 1) Woelfle, M.; Olliaro, P.; Todd, M. H. (2011). Open science is a research accelerator. Nature Chemistry. 3: 745–748. [doi:10.1038/nchem.1149](https://www.nature.com/articles/nchem.1149)
 
-1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-
-1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
-
-1) Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
-
 1) Stodden, V., McNutt, M., Bailey, D. H., Deelman, E., Gil, Y., Hanson, B., . . . Taufer, M. (2016). Enhancing reproducibility for computational methods. Science, 354(6317), 1240-1241. [doi:10.1126/science.aah6168](http://science.sciencemag.org/content/354/6317/1240.long)
 
 1) Kopt D. This year’s Nobel Prize in economics was awarded to a Python convert. [qz.com](https://qz.com/1417145/economics-nobel-laureate-paul-romer-is-a-python-programming-convert/) Oct 2018.
 
 1) Somers J. The Scientific Paper Is Obsolete: Here's what's next. [The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/) Apr 2018.
 
-### Toolkit references
+1) Kitzes J, Turek D, Deniz F. _The practice of reproducible research: case studies and lessons from the data-intensive sciences_. [Univ of California Press](https://legacy.gitbook.com/book/bids/the-practice-of-reproducible-research/details); 2017.
+
+1) Pioneering ‘live-code’ article allows scientists to play with each other’s results. [Nature](https://www.nature.com/articles/d41586-019-00724-7)
+
+
+### Git and version control
 
 1) Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost Fda V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. [PLoS Comput Biol](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/). 2016;12(7):e1004947.
 
-1) IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
+1) [Git/Github guide](http://kbroman.org/github_tutorial/)
 
-1) Kitzes J, Turek D, Deniz F. _The practice of reproducible research: case studies and lessons from the data-intensive sciences_. [Univ of California Press](https://legacy.gitbook.com/book/bids/the-practice-of-reproducible-research/details); 2017.
+1) [Version control with Git](https://swcarpentry.github.io/git-novice/)
 
-1) Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745.  
+1) [Git and GitHub learning resources](https://help.github.com/en/articles/git-and-github-learning-resources)
+
+1) [Integration of GitHub with SAS](https://analytics.ncsu.edu/sesug/2013/PA-04.pdf)
+
+1) [Gitkraken](https://www.gitkraken.com/git-client) (the Git client our team uses)
+
+### Code documentation
 
 1) What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
 
-1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
-[10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
+1) [Jupyter Notebooks](https://jupyter.org/)
 
-## Toolkit
+1) [Why Jupyter is data scientist’ computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
 
-### Git
+1) [Introduction to R Markdown](http://rmarkdown.rstudio.com/articles_intro.html) 
 
-Use Git if either of these issues applies to you.
+1) [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
 
-1. You have files like this: `my_great_study_final_final_final.sas`
-2. If you collaborate or share code with others.
-   Science is about collaboration and sharing ideas.
+1) [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
-[Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
+1) [Advantages to using R Markdown for data analysis over Jupyter Notebooks](https://minimaxir.com/2017/06/r-notebooks/)
+
+### Programming
+
+1) [Population Health Data Science with R. Tomas J Argon](https://bookdown.org/medepi/phds/)
+
+1) [R for Data Science](http://r4ds.had.co.nz/index.html). G Grolemund and H Wickham
+
+1)  [Efficient R programming]([https://csgillespie.github.io/efficientR/). C Gillespie, R Lovelace
+
+1) [R for Data Science- Chapter 19: Functions](http://r4ds.had.co.nz/functions.html ). G Grolemund, H Wickham
+
+### Metadata
+
+1) IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
