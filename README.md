@@ -6,7 +6,11 @@
 
 Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues)
 
-An additional [resource](https://github.com/DougManuel/ds-presentation/) of several related presentations on data science. Each branch represents a presentation for a specific audience. 
+An additional resources (see reference list below):
+
+- several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
+- Our *[bllflow](https://bllflow.projectbiglife.ca)* R package for efficient, transparent data prepartion and reporting.
+- The quiz was part of the data science panel at the [2019 CAHSPR meeting](https://www.cahspr.ca). The [presentation and further information](https://github.com/DougManuel/ds-presentation/tree/CASPHR2019-panel).
 
 #### 1) Open software
 
@@ -93,14 +97,6 @@ _Tip: Add titles for tables that you share with others -- in the same way you al
 >"More than 70% of researchers have tried and failed to reproduce another scientist's experiments, and more than half have failed to reproduce their own experiments."
 
 *Monya Baker*. 1,500 scientists lift the lid on reproducibility. Nature 533, 452-4 (2016)
-
-## Our repository
-
-*[bllflow](https://bllflow.projectbiglife.ca)* - an R package for efficient, transparent data prepartion and reporting.
-
-## Panel presentation
-
-The quiz was part of the data science panel at the [2019 CAHSPR meeting](https://www.cahspr.ca). The [presentation and further information](https://github.com/DougManuel/ds-presentation/tree/CASPHR2019-panel).
 
 ## References
 
