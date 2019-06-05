@@ -126,7 +126,7 @@ _Tip: Add titles for tables that you share with others -- in the same way you al
 
 1. 4 Reasons Why Beginning Programmers Should Use “Git”. Medium, Bouasavanh H, Jan 2018. [Accessed May 2019](https://medium.com/swlh/git-as-the-newbies-learning-steroid-963a2146220b)
 1 Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost Fda V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. [PLoS Comput Biol](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/). 2016;12(7):e1004947.
-1. Git/Github guide](http://kbroman.org/github_tutorial/)
+1. [Git/Github guide](http://kbroman.org/github_tutorial/)
 1. [Version control with Git](https://swcarpentry.github.io/git-novice/)
 1. [Git and GitHub learning resources](https://help.github.com/en/articles/git-and-github-learning-resources)
 1. [Integration of GitHub with SAS](https://analytics.ncsu.edu/sesug/2013/PA-04.pdf)
