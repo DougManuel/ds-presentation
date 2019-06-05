@@ -1,6 +1,4 @@
-title: The quiz: Are you using the data science tool kit for open science?
-
-**Evaluate your use of the data science tool kit. [Quiz](https://ca.research.net/r/6FG22QJ)**
+Take the quiz **[here](https://ca.research.net/r/6FG22QJ)**, if you haven't already, and then come back.
 
 # Explantion of how we marked the quiz
 
@@ -14,11 +12,11 @@ Additional resources (see reference list below):
 
 # 1) Open software
 
-There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the defacto way to share code with others. 
+There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the _defacto_ way to share code with others. 
 
 The two leading software packages for data science are R and Python. Julia is also open-source with rapid adoption. There are thousands and thousands of code packages that are publicly available in code repositories for R and Python. These code respositories have well-established guidelines for how to write and document code for sharing. A rich tool kit of supporting libraries are available to make it easy for you to adopt these best practices, including creating documentation, cleaning and linting your code, checking and testing for errors. 
 
-_Tip: Take an introduction course for an open-source program language._
+> Tip: Take an introduction course for an open-source program language.
 
 Many introductory courses are free. 
 
@@ -29,7 +27,7 @@ Many introductory courses are free.
 
 Code is easier to read if it is written in a consistent style that includes naming variables, functions and how to using spaces. There are common style guides that are used for different languages or within institutions. For example, [Google](http://google.github.io/styleguide/) publishes their style guides for all major program languages. Try to the same style guide within your organization or collegues.
 
-_Tip: Talk with your collegues about adopting a coding style._
+> Tip: Talk with your collegues about adopting a coding style.
 
 # 3) Documenting your code
 
@@ -39,9 +37,9 @@ Documenting your analysis code is more than making comments within the program c
 
 *Daniele Procida*. [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
 
-_Tip: Make a coding buddy. Then make Pull Requests to each other for each others code._
+> Tip: Make a coding buddy. Then make Pull Requests to each other for each others code.
 
-_Tip: Think of documentation code like explaining to someone how to bake a cake._
+> Tip: Think of documentation code like explaining to someone how to bake a cake.
 
 # 4) Code notebooks
 
@@ -55,7 +53,7 @@ Errors in code is [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-l
 
 Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
 
-_Tip: set up a code linter._
+> Tip: set up a code linter.
 
 # 6 to 8) Git and Git repositories
 
@@ -69,7 +67,7 @@ There are many [guides](http://kbroman.org/github_tutorial/) and [tips](https://
 
 We have created some resources for health researchers. [Getting started with Git.](https://github.com/Big-Life-Lab/GettingStartedWithGit)
 
-_Tip: If you don't (yet) have a git repository at work, try it at home. There are even many uses for [git beyond programming](https://thenewstack.io/beyond-code-control-git-for-everything/) -- make it fun._ 
+> Tip: If you don't (yet) have a git repository at work, try it at home. There are even many uses for [git beyond programming](https://thenewstack.io/beyond-code-control-git-for-everything/) -- make it fun. 
 
 # 9) Metadata
 
@@ -79,7 +77,7 @@ Fortunately, many sources of data come with standarized metadata. For example, t
 
 A challenge is a lack of well-developed tools to use metadata in your project (beyond variable and category lables). We've created an [R library](http://bllflow.projectbiglife.ca) that helps use and maintain metadata.
 
-_Tip: Add titles for tables that you share with others -- in the same way you already add titles to figures and plots.  Yes! Titles are metadata. You wouldn't make a plot without a title, so why are you...._
+> Tip: Add titles for tables that you share with others -- in the same way you already add titles to figures and plots.  Yes! Titles are metadata. You wouldn't make a plot without a title, so why are you....
 
 # Imperitives
 
