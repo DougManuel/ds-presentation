@@ -2,9 +2,9 @@ Take the quiz **[here](https://ca.research.net/r/6FG22QJ)**, if you haven't alre
 
 # Explantion of how we marked the quiz
 
-Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues)
+Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues). Source code for this webpost [here](https://github.com/DougManuel/ds-presentation/tree/gh-pages).
 
-Additional resources (see reference list below):
+Additional resources below.
 
 - The quiz supports several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
 - Our *[bllflow](https://bllflow.projectbiglife.ca)* R package for efficient, transparent data prepartion and reporting.
@@ -53,7 +53,7 @@ Errors in code is [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-l
 
 Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
 
-> Tip: set up a code linter.
+> Tip: Set up a code linter.
 
 # 6 to 8) Git and Git repositories
 
