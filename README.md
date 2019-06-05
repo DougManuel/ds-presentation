@@ -2,7 +2,7 @@
 
 **Evaluate your use of the data science tool kit. [Quiz](https://ca.research.net/r/6FG22QJ)**
 
-### Explantion of how we marked the test
+### Explantion of how we marked the quiz
 
 Have suggestions or thoughts? Send your comments through [issues](https://github.com/DougManuel/ds-presentation/issues)
 
