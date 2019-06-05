@@ -134,21 +134,21 @@ _Tip: Add titles for tables that you share with others -- in the same way you al
 
 ### Code documentation
 
-1) What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
-1) [Jupyter Notebooks](https://jupyter.org/)
-1) [Why Jupyter is data scientist’ computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
-1) [Introduction to R Markdown](http://rmarkdown.rstudio.com/articles_intro.html) 
-1) [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
-1) [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-1) [Advantages to using R Markdown for data analysis over Jupyter Notebooks](https://minimaxir.com/2017/06/r-notebooks/)
+1. What nobody tells you about documentation. Divio Blog. [Accessed Nov 2018](https://www.divio.com/blog/documentation)
+1. [Jupyter Notebooks](https://jupyter.org/)
+1. [Why Jupyter is data scientist’ computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
+1. [Introduction to R Markdown](http://rmarkdown.rstudio.com/articles_intro.html) 
+1. [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/)
+1. [R Markdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+1. [Advantages to using R Markdown for data analysis over Jupyter Notebooks](https://minimaxir.com/2017/06/r-notebooks/)
 
 ### Programming
 
-1) [Population Health Data Science with R. Tomas J Argon](https://bookdown.org/medepi/phds/)
-1) [R for Data Science](http://r4ds.had.co.nz/index.html). G Grolemund and H Wickham
-1) [Efficient R programming]([https://csgillespie.github.io/efficientR/). C Gillespie, R Lovelace
-1) [R for Data Science- Chapter 19: Functions](http://r4ds.had.co.nz/functions.html ). G Grolemund, H Wickham
+1. [Population Health Data Science with R. Tomas J Argon](https://bookdown.org/medepi/phds/)
+1. [R for Data Science](http://r4ds.had.co.nz/index.html). G Grolemund and H Wickham
+1. [Efficient R programming]([https://csgillespie.github.io/efficientR/). C Gillespie, R Lovelace
+1. [R for Data Science- Chapter 19: Functions](http://r4ds.had.co.nz/functions.html ). G Grolemund, H Wickham
 
 ### Metadata
 
-1) IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
+1. IBM developerWorks. What is PMML? [Accessed 2018](https://www.ibm.com/developerworks/library/ba-ind-PMML1/).
