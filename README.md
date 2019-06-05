@@ -102,15 +102,11 @@ _Tip: Add titles for tables that you share with others -- in the same way you al
 
 ### General
 
-1) Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-
-1) Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
-
-1) Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
-
-1) Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745. 
-
-1) Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
+1. Donoho D, 50 years of Data Science. [Sept. 18, 2015](http://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+1. Stukel TA, Austin PC, Azimaee M, Bronskill SE, Guttmann A, Paterson JM, Schull MJ, Sutradhar R, Victor JC. _Envisioning a Data Science Strategy for ICES_. Toronto, ON: Institute for Clinical Evaluative Sciences; 2017. [ISBN: 978-1-926850-77-1](https://www.ices.on.ca/Publications/Atlases-and-Reports/2017/Data-science-strategy)
+1. Rumsfeld JS, Joynt KE, Maddox TM. Big data analytics to improve cardiovascular care: promise and challenges. Nature reviews Cardiology. 2016;13(6):350-9.
+1. Wilson G, Aruliah DA, Brown CT, Chue Hong NP, Davis M, Guy RT, et al. Best practices for scientific computing. [PLoS Biol](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). 2014;12(1):e1001745. 
+1. Hicks SC, Irizarry RA. A Guide to Teaching Data Science. The American Statistician. 2017;72(4):382-91.
 [10.1080/00031305.2017.1356747](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1356747)
 
    
