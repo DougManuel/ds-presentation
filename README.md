@@ -8,7 +8,7 @@ Have suggestions or thoughts? Send your comments through [issues](https://github
 
 Additional resources (see reference list below):
 
-- Several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
+- The quiz supports several related [presentations](https://github.com/DougManuel/ds-presentation/) on data science. Each branch represents a presentation for a specific audience. 
 - Our *[bllflow](https://bllflow.projectbiglife.ca)* R package for efficient, transparent data prepartion and reporting.
 - The quiz was part of the data science panel at the [2019 CAHSPR meeting](https://www.cahspr.ca). The [presentation and further information](https://github.com/DougManuel/ds-presentation/tree/CASPHR2019-panel).
 
@@ -51,7 +51,7 @@ We like rMarkdown because you can not only create notebooks but also [online boo
 
 #### 5) Check your code
 
-Errors in code is (enivable)[https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio]. The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborations. 
+Errors in code is [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio). The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborations. 
 
 Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
 
