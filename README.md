@@ -12,7 +12,7 @@ Additional resources below.
 
 # 1) Open software
 
-There are many data science software programs, each with its strength. Data scientists typically use multiple programs, but open software is the _defacto_ way to share code with others. 
+There are many data science software programs, each with its own strengths. Data scientists typically use multiple programs, but open software is the _defacto_ way to share code with others. 
 
 The two leading software packages for data science are R and Python. Julia is also open-source with rapid adoption. There are thousands and thousands of code packages that are publicly available in code repositories for R and Python. These code respositories have well-established guidelines for how to write and document code for sharing. A rich tool kit of supporting libraries are available to make it easy for you to adopt these best practices, including creating documentation, cleaning and linting your code, checking and testing for errors. 
 
@@ -25,7 +25,7 @@ Many introductory courses are free.
 
 # 2) Coding style
 
-Code is easier to read if it is written in a consistent style that includes naming variables, functions and how to using spaces. There are common style guides that are used for different languages or within institutions. For example, [Google](http://google.github.io/styleguide/) publishes their style guides for all major program languages. Try to the same style guide within your organization or collegues.
+Code is easier to read if it is written in a consistent style that includes naming variables, functions and how to use spaces. There are common style guides for different languages or within institutions. For example, [Google](http://google.github.io/styleguide/) publishes their style guides for all major program languages. Try to use the same style guide as your organization or collegues.
 
 > Tip: Talk with your collegues about adopting a coding style.
 
@@ -37,19 +37,19 @@ Documenting your analysis code is more than making comments within the program c
 
 *Daniele Procida*. [What nobody tells you about documentation](https://www.divio.com/blog/documentation/)
 
-> Tip: Make a coding buddy. Then make Pull Requests to each other for each others code.
+> Tip: Have a coding buddy. Use Git's Pull Requests with each other to review each others code.
 
-> Tip: Think of documentation code like explaining to someone how to bake a cake.
+> Tip: Think of documenting code like explaining to someone how to bake a cake.
 
 # 4) Code notebooks
 
-Code notebooks like Juypter and rMarkdown are a great way to share code. You combine code snippets in a docment that is easy to read. The code snippets can be executed by your reader -- and modified by them if they wish to explore how the code works. The notebooks are easily shared on websites. 
+Code notebooks like Juypter and rMarkdown are a great way to document and share code. They combine code snippets in a docment that is easy to read. The code snippets can be executed by your reader -- and modified by them if they wish to explore how the code works. The notebooks are easily shared on the web. 
 
-We like rMarkdown because you can not only create notebooks but also [online books](https://bookdown.org/yihui/bookdown/), [blog](https://bookdown.org/yihui/blogdown/), (code package documentation)[https://pkgdown.r-lib.org/] and other documents.
+We like rMarkdown because you can not only create notebooks but also [online books](https://bookdown.org/yihui/bookdown/), [blogs](https://bookdown.org/yihui/blogdown/), (code package documentation)[https://pkgdown.r-lib.org/] and other documents.
 
 # 5) Check your code
 
-Errors in code is [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio). The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborations. 
+Errors in code are [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio). The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborators. 
 
 Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
 
@@ -57,11 +57,11 @@ Fortunately, there are tools to help you reduce the number of errors you write. 
 
 # 6 to 8) Git and Git repositories
 
-Git and Git repositories have the most points in our test. When we talk about Git terms like "linchpin" and "glue" come up. Many parts of the open science tool kit would look considerably less developed without Git. There are other version control systems but Git is really the only system that is used for new projects.
+Git and Git repositories have the most points in our test. When we talk about Git, terms like "linchpin" and "glue" come up. Many parts of the open science tool kit would look considerably less developed without Git. There are other version control systems but Git is really the only system that is used for new projects.
 
 Git is difficult to learn, but everyone who learns it is glad they did. Using git will save you time and heartache -- any investment in your time will be returned to you many, many fold.
 
-Git repositories like GitHub and Gitlab is how data scientist colloborate across the world. 
+Git repositories like GitHub and Gitlab are how data scientist colloborate across the world. 
 
 There are many [guides](http://kbroman.org/github_tutorial/) and [tips](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047/) for using git and git repositories. Keep your eyes open for the increasing number of resources for people like you (hint: many resources are for software developers in business). 
 
@@ -71,17 +71,17 @@ We have created some resources for health researchers. [Getting started with Git
 
 # 9) Metadata
 
-You may be suprized to see a question about metadata on the test. This is a rapidly developming area that data scientist are paying more attention. Data without context is meaningless -- metadata provide that context. Metadata tells you about your data: where it came from (data provance) and what it contains. 
+You may have been suprised to see a question about metadata on the test. This is a rapidly developing area that data scientists are paying more attention to. Data without context is meaningless -- metadata provide that context. Metadata tells you about your data: where it came from (data provance) and what it contains. 
 
-Fortunately, many sources of data come with standarized metadata. For example, there are over ten thousand databases with 5 million variables available at [ICPSR](https://www.icpsr.umich.edu/icpsrweb/), all with metadata encoded using the Data Documentation Initiative((DDI)[https://www.ddialliance.org]). Aim to publish your results with metadata to allow machine-actionable uses of your research, in addition to ensure reliable reproduciblity and transparency. For example, we publish our algorihtms using Predictive Modelling Mark-up Language ((PMML)[http://dmg.org]). 
+Fortunately, many sources of data come with standarized metadata. For example, there are over ten thousand databases with 5 million variables available at [ICPSR](https://www.icpsr.umich.edu/icpsrweb/), all with metadata encoded using the Data Documentation Initiative((DDI)[https://www.ddialliance.org]). Aim to publish your results with metadata to allow machine-actionable uses of your research, in addition to ensuring reliable reproduciblity and transparency. For example, we publish our algorihtms using Predictive Modelling Mark-up Language ((PMML)[http://dmg.org]). 
 
 A challenge is a lack of well-developed tools to use metadata in your project (beyond variable and category lables). We've created an [R library](http://bllflow.projectbiglife.ca) that helps use and maintain metadata.
 
-> Tip: Add titles for tables that you share with others -- in the same way you already add titles to figures and plots.  Yes! Titles are metadata. You wouldn't make a plot without a title, so why are you....
+> Tip: Add titles for tables that you share with others -- in the same way you already add titles to figures and plots.  Yes! Titles are metadata. You wouldn't make a plot without a title, so why are sharing tables without titles!
 
 # Imperitives
 
-## Internationally, a growing voice of concern about research reproducitibity
+## Internationally, there is a growing voice of concern about research reproducitibity
 
 > “Academic institutions can and must do better. We should be taking multiple approaches to make science more reliable.”
 
