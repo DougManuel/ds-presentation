@@ -49,7 +49,7 @@ We like rMarkdown because you can not only create notebooks but also [online boo
 
 # 5) Check your code
 
-Errors in code are [enivable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio). The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborators. 
+Errors in code are [inevitable](https://www.mayerdan.com/ruby/2012/11/11/bugs-per-line-of-code-ratio). The more code you write, the more eerors you'll have in your code. Remember, your data science projects are becoming increasingly complex, with more and larger data and more collaborators. 
 
 Fortunately, there are tools to help you reduce the number of errors you write. In our teams, we check each others code if we plan to reuse it more than once or share it with others. We use linters, checkers and [tests](https://testthat.r-lib.org). As a back-up, we deploy program these tools using [continuous integration](https://travis-ci.org) before code is shared by others.
 
